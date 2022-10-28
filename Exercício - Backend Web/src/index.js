@@ -2,7 +2,7 @@ import Express from 'Express';
 
 const app = Express();
 
-app.get('/', (req, res) =>
+app.get('/name', (req, res) =>
     res.send("<h3>Meu nome Completo</h3><p>Geraldo de Sousa Cruz Neto")
 );
 
